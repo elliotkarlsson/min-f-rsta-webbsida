@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+.box:hover{
+    width: 300px;
+    background-color: red;
+    transform: rotate(90deg);
+
+}
